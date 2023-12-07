@@ -57,12 +57,12 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("test")
+    val testInput = readLines("test")
     val testGames = parseInput(testInput)
     check(part1(testGames) == 8)
     check(part2(testGames) == 2286)
 
-    val input = readInput("real")
+    val input = readLines("real")
     val realGames = parseInput(input)
     part1(realGames).println()
     part2(realGames).println()

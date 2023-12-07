@@ -73,11 +73,11 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("test")
+    val testInput = readLines("test")
     check(part1(testInput) == 4361)
     check(part2(testInput) == 467835L)
 
-    val input = readInput("real")
+    val input = readLines("real")
     part1(input).println()
     part2(input).println()
 }

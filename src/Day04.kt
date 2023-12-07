@@ -33,12 +33,12 @@ fun main() {
     }
 
     // test if implementation meets criteria from the description, like:
-    val testInput = readInput("test")
+    val testInput = readLines("test")
     val testNumbers = parseInput(testInput)
     check(part1(testNumbers) == 13)
     check(part2(testNumbers) == 30)
 
-    val input = readInput("real")
+    val input = readLines("real")
     val realNumbers = parseInput(input)
     part1(realNumbers).println()
     part2(realNumbers).println()
